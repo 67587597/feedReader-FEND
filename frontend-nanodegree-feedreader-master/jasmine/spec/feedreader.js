@@ -84,9 +84,9 @@ $(function() {
           it('does the menu display when clicked and does it hide when clicked again', function() {
             var icon = $('.menu-icon-link');
             body = $('body');
-            icon.trigger('click')
-            expect(body.hasClass("menu-hidden")).toBe(false)
-            icon.trigger('click')
+            icon.trigger('click');
+            expect(body.hasClass("menu-hidden")).toBe(false);
+            icon.trigger('click');
             expect(body.hasClass("menu-hidden")).toBe(true);
           //  expect($body).hasClass("menu-hidden").toBe(false);
           });

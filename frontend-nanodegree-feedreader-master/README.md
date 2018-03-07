@@ -46,3 +46,13 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 19. Implement error handling for undefined variables and out-of-bound array access.
 20. When complete - all of your tests should pass. 
 21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.
+#how to run the project ?
+open the file in ypur favourite browser.
+
+This project will test some functionality:
+1- check if allfeeds is defined.
+2- check if allfeeds has name and url.
+3- check if the menu is hidden by default.
+4- check if the menu hide and open when specfied icon clicked.
+5- check the length of feed to ensure it is not empty.
+6-    //check that content of each entry is different from another.

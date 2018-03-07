@@ -120,12 +120,11 @@ $(function() {
         beforeEach(function(done) {
         loadFeed(1,function() {
           entry1 = $(".entry").html();
-          done();
-        });
-        loadFeed(2,function() {
+          loadFeed(2,function() {
           entry2 = $(".entry").html();
           done();
           });
+        });
       });
 
         /* TODO: Write a test that ensures when a new feed is loaded

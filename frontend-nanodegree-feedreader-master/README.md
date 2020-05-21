@@ -1,8 +1,8 @@
 
 # how to run the project ?
-download the rontend-nanodegree-feedreader-master folder and open the file (index.html) in your favourite browser.
+download the frontend-nanodegree-feedreader-master folder and open the file (index.html) in your favourite browser.
 
-This project will test some functionality:
+This project will test some functionalities:
 1- check if allfeeds is defined.
 2- check if allfeeds has name and url.
 3- check if the menu is hidden by default.
